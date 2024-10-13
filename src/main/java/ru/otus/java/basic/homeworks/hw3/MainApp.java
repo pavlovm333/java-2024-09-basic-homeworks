@@ -5,17 +5,10 @@ import java.util.Scanner;
 public class MainApp {
     public static void main(String[] args) {
         greetings();
-
-        System.out.println("Вызов checkSign(0,1,0)");
         checkSign(0,1,0);
-        System.out.println();
-
         selectColor();
         compareNumbers();
-
-        System.out.println("Вызов addOrSubtractAndPrint(10, 15, false)");
         addOrSubtractAndPrint(10, 15, false);
-        System.out.println();
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите целое число");
@@ -36,10 +29,7 @@ public class MainApp {
             int a = generateInt(-100, 100);
             int b = generateInt(-100, 100);
             int c = generateInt(-100, 100);
-
-            System.out.println("Вызов checkSign(" + a + "," + b + "," + c + ")");
             checkSign(a, b, c);
-            System.out.println();
         }
         else if (result == 3) {
             selectColor();
@@ -51,9 +41,7 @@ public class MainApp {
             int initValue = generateInt(-100, 100);
             int delta = generateInt(-100, 100);
             boolean increment = generateInt(0, 2) == 1;
-            System.out.println("Вызов addOrSubtractAndPrint(" + initValue + "," + delta + "," + increment + ")");
             addOrSubtractAndPrint(initValue, delta, increment);
-            System.out.println();
         }
     }
 
@@ -67,12 +55,14 @@ public class MainApp {
     }
 
     public static void checkSign(int a, int b, int c) {
+        System.out.println("Вызов checkSign(" + a + "," + b + "," + c + ")");
         if (a + b + c >= 0) {
             System.out.println("Сумма положительная");
         }
         else {
             System.out.println("Сумма отрицательная");
         }
+        System.out.println();
     }
 
     public static void selectColor() {
@@ -81,10 +71,10 @@ public class MainApp {
         if (data <= 10) {
             System.out.println("Красный");
         }
-        else if (data > 10 && data <= 20) {
+        else if (data <= 20) {
             System.out.println("Жёлтый");
         }
-        else if (data > 20) {
+        else {
             System.out.println("Зелёный");
         }
         System.out.println();
@@ -105,12 +95,14 @@ public class MainApp {
     }
 
     public static void addOrSubtractAndPrint(int initValue, int delta, boolean increment) {
+        System.out.println("Вызов addOrSubtractAndPrint(" + initValue + "," + delta + "," + increment + ")");
         if (increment) {
             System.out.println(initValue + delta);
         }
         else {
             System.out.println(initValue - delta);
         }
+        System.out.println();
     }
 
     public static int generateInt(int min, int max) {

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="init1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw3/MainApp.java" afterDir="false" />
+    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="ДЗ3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw3/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw3/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1728843621459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ДЗ3">
+      <created>1728849962095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728849962095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,10 +132,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init1" />
-    <option name="LAST_COMMIT_MESSAGE" value="init1" />
+    <MESSAGE value="ДЗ3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ3" />
   </component>
 </project>
