@@ -14,26 +14,19 @@ public class MainApp {
     }
 
     public static void arraysElementsSum(int[] ... members) {
-        int numberMaxLengthArray = 0; //номер массива с максимальным числом элементов
-        int maxLengthArray = 0;
+        int maxLength = 0;
         for (int i = 0; i < members.length; i++ ) {
-            System.out.println("массив - " + i + " - " + Arrays.toString(members[i]));
-            System.out.println();
-            if (members[i].length > maxLengthArray) {
-                maxLengthArray = members[i].length;
-                numberMaxLengthArray = i;
+            if (members[i].length > maxLength) {
+                maxLength= members[i].length;
             }
         }
-
-        for (int i = 0; i < members[numberMaxLengthArray].length; i++ ) { //Цикл по элементам массивов
-            for (int j = 0; j <  members.length; j++ ) { //Цикл по всем массивам
-                //Если выбранный массив не совпадает с массивом с макимальным числом элеменотов и номер элемента на превосходит длину массива
-                if (j != numberMaxLengthArray && i < members[j].length) {
-                    members[numberMaxLengthArray][i] = members[numberMaxLengthArray][i] + members[j][i];
-                }
+        int[] resultedArray = new int[maxLength];
+        for (int i = 0; i < members.length; i++ ) {
+            for (int j = 0; j < members[i].length; j++ ) {
+                resultedArray[j] += members[i][j];
             }
         }
-        System.out.println("Массив с суммами элементов - " + Arrays.toString(members[numberMaxLengthArray]));
+        System.out.println("Массив с суммами элементов - " + Arrays.toString(resultedArray));
     }
 
     public static void arraysPointExists(int[] arr) {
@@ -48,7 +41,7 @@ public class MainApp {
             if (sumLeft == sumRight) {
                 break;
             }
-            j = j + 1;
+            j++;
             sumLeft = sumLeft + arr[j];
             sumRight = sumRight - arr[j];
             }
