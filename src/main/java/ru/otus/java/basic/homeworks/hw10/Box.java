@@ -34,7 +34,7 @@ public class Box {
         else {
             System.out.print("В коробке ничего не лежит; ");
         }
-        if (isCoverBoxOpen()) {
+        if (boxCoverStatus) {
             System.out.println("Крышка открыта");
         } else {
             System.out.println("Крышка закрыта");
