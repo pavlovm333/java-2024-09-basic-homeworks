@@ -14,24 +14,24 @@ public class Plate {
 
     public Plate(int maxFoodAmount) {
         this.maxFoodAmount = maxFoodAmount;
-        this.currFoodAmount = maxFoodAmount;
+        currFoodAmount = maxFoodAmount;
     }
 
     public int getCurFoodAmount() {
         return currFoodAmount;
     }
 
-    public void AddFoodVolume(int FoodAmount) {
-        if (FoodAmount + currFoodAmount > maxFoodAmount) {
+    public void addFoodVolume(int foodAmount) {
+        if (foodAmount + currFoodAmount > maxFoodAmount) {
             currFoodAmount = maxFoodAmount;
         } else {
-            currFoodAmount+= FoodAmount;
+            currFoodAmount+= foodAmount;
         }
     }
 
-    public boolean ReduceFoodVolume(int FoodAmount) {
-        if (currFoodAmount - FoodAmount >= 0) {
-            currFoodAmount-= FoodAmount;
+    public boolean reduceFoodVolume(int foodAmount) {
+        if (currFoodAmount - foodAmount >= 0) {
+            currFoodAmount-= foodAmount;
             return true;
         }
         return false;

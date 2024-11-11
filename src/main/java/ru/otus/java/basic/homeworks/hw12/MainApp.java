@@ -19,7 +19,7 @@ public class MainApp {
         cat[2].info();
         System.out.println("Осталось единиц еды - " + plate.getCurFoodAmount());
 
-        plate.AddFoodVolume(100);
+        plate.addFoodVolume(100);
         System.out.println("Осталось единиц еды - " + plate.getCurFoodAmount());
         cat[3].eatingTry(plate);
         cat[3].info();

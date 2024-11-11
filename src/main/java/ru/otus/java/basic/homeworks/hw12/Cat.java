@@ -26,12 +26,10 @@ public class Cat {
     public void info() {
         if (isFull) {
             System.out.println("Кот " + name + " наелся");
-        } else {
-            System.out.println("Кот " + name + " голодный");
-        }
+        } else System.out.println("Кот " + name + " голодный");
     }
 
     public void eatingTry (Plate plate) {
-        isFull = plate.ReduceFoodVolume(appetite);
+        isFull = plate.reduceFoodVolume(appetite);
     }
 }
