@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="ДЗ_12">
+    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="ДЗ_12_исправления">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw12/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw12/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw12/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw12/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw12/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw12/Plate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731359269022</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ДЗ_12_исправления">
+      <created>1731359617101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731359617101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="ДЗ_12" />
-    <option name="LAST_COMMIT_MESSAGE" value="ДЗ_12" />
+    <MESSAGE value="ДЗ_12_исправления" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ_12_исправления" />
   </component>
 </project>

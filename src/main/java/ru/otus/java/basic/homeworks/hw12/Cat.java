@@ -3,10 +3,15 @@ package ru.otus.java.basic.homeworks.hw12;
 public class Cat {
     private final String name;
     private int appetite;
+
     private boolean isFull;
 
     public boolean isFull() {
         return isFull;
+    }
+
+    public void setHungry() {
+        isFull = false;
     }
 
     public int getAppetite() {
@@ -30,6 +35,7 @@ public class Cat {
     }
 
     public void eatingTry (Plate plate) {
+        if (isFull) return;
         isFull = plate.reduceFoodVolume(appetite);
     }
 }
