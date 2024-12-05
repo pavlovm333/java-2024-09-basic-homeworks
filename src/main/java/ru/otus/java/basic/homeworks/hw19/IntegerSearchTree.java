@@ -28,7 +28,8 @@ public class IntegerSearchTree implements SearchTree {
     }
 
     public Integer find(Integer element) {
-        return findNode(rootNode, element) != null ? findNode(rootNode, element).getValue() : null;
+        Node node = findNode(rootNode, element);
+        return node != null ? node.getValue() : null;
     }
 
     private Node findNode(Node node, Integer element) {
