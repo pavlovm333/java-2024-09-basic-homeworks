@@ -22,7 +22,7 @@ class Node {
     }
 
     public Node getRightChild() {
-        return this.rightChild;
+        return rightChild;
     }
 
     public void setRightChild( Node rightChild) {
