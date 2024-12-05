@@ -17,8 +17,8 @@ public class MainApp {
         System.out.println(arrList);
         System.out.println();
 
-        System.out.println("Поиск числа -100 через метод find() интерфейса SearchTree");
-        System.out.println(((SearchTree) integerSearchTree).find(-100));
+        System.out.println("Поиск числа 456 через метод find() интерфейса SearchTree");
+        System.out.println(((SearchTree) integerSearchTree).find(456));
         System.out.println();
 
         System.out.println("Вывод информации о дереве поиcка");

@@ -26,19 +26,18 @@ public class IntegerSearchTree implements SearchTree {
         node.setRightChild(sortedArrayToTree(arrayList, middle+1, last));
         return node;
     }
+
     public Integer find(Integer element) {
-        Node currentNode = rootNode;
-        while (currentNode.getValue() != element) {
-            if (element < currentNode.getValue()) {
-                currentNode = currentNode.getLeftChild();
-            } else {
-                currentNode = currentNode.getRightChild();
-            }
-            if (currentNode == null) {
-                return null;
-            }
+        return findNode(rootNode, element) != null ? findNode(rootNode, element).getValue() : null;
+    }
+
+    private Node findNode(Node node, Integer element) {
+        if (node == null || node.getValue() == element) {
+            return node;
+        } else if (element < node.getValue()) {
+            return findNode(node.getLeftChild(), element);
         }
-        return currentNode.getValue();
+        return findNode(node.getRightChild(), element);
     }
 
     public void printIntegerSearchTree() {

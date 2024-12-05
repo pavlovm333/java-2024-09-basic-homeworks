@@ -2,6 +2,7 @@ package ru.otus.java.basic.homeworks.hw19;
 
 class Node {
     private final int value;
+    Node[] nodes;
     private Node leftChild;
     private Node rightChild;
 
