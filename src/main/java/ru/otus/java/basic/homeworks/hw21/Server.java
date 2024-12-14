@@ -37,6 +37,8 @@ public class Server {
 
             outputStream.writeUTF(result);
             outputStream.flush();
+            System.out.println("Клиент с портом :" + client.getPort() + " отключился!");
+            client.close();
         }
     }
 
