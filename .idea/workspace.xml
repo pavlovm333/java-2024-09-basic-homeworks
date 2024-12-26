@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="init" />
+    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="ДЗ_26">
+      <change afterPath="$PROJECT_DIR$/add_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chat2024" />
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -87,7 +91,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="homework1" />
+                        <option value="homework17" />
                       </list>
                     </value>
                   </entry>
@@ -98,9 +102,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="ДЗ_26" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ_26" />
   </component>
 </project>
