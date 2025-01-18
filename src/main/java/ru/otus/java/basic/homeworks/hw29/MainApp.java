@@ -35,10 +35,10 @@ public class MainApp {
 
             System.out.println("Файла " + element[0] + " не существет в корневом каталоге. Повторите ввод");
         }
-        countingPatternOccurrences(element[0], element[1]);
+        patternOccurrencesCounting(element[0], element[1]);
     }
 
-    public static void countingPatternOccurrences (String filename, String pattern) {
+    public static void patternOccurrencesCounting (String filename, String pattern) {
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(filename), StandardCharsets.UTF_8))) {
             String line;
             int res = 0;
