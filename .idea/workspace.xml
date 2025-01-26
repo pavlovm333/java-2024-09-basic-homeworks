@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="init" />
+    <list default="true" id="73ff3f91-626a-4316-87a5-07ab1d7bec25" name="Changes" comment="ДЗ_32">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw32/ArrayOpetations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/homeworks/hw32/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/otus/java/basic/homeworks/hw32/ArrayOpetationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,14 +43,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
-  <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.homeworks.Application" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.otus.java.basic.homeworks.hw32" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayOpetationsTest">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.homeworks.hw32.MainApp" />
       <module name="java-2024-09-basic-homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.java.basic.homeworks.*" />
+          <option name="PATTERN" value="ru.otus.java.basic.homeworks.hw32.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,10 +68,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayOpetationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-2024-09-basic-homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.java.basic.homeworks.hw32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.java.basic.homeworks.hw32" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.homeworks.hw32.ArrayOpetationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayOpetationsTest.testArrayCutting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-2024-09-basic-homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.java.basic.homeworks.hw32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.java.basic.homeworks.hw32" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.homeworks.hw32.ArrayOpetationsTest" />
+      <option name="METHOD_NAME" value="testArrayCutting(int[],int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayOpetationsTest.testCheckArrayElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-2024-09-basic-homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.java.basic.homeworks.hw32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.java.basic.homeworks.hw32" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.homeworks.hw32.ArrayOpetationsTest" />
+      <option name="METHOD_NAME" value="testCheckArrayElements(int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayOpetationsTest.testCheckArrayElementsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-2024-09-basic-homeworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.java.basic.homeworks.hw32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.otus.java.basic.homeworks.hw32" />
+      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.homeworks.hw32.ArrayOpetationsTest" />
+      <option name="METHOD_NAME" value="testCheckArrayElementsFalse(int[])" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.ArrayOpetationsTest" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.ArrayOpetationsTest.testCheckArrayElementsFalse" />
+        <item itemvalue="JUnit.ArrayOpetationsTest.testCheckArrayElements" />
+        <item itemvalue="JUnit.ArrayOpetationsTest.testArrayCutting" />
       </list>
     </recent_temporary>
   </component>
@@ -87,7 +171,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="homework1" />
+                        <option value="homework22" />
                       </list>
                     </value>
                   </entry>
@@ -98,9 +182,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="ДЗ_32" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ_32" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_2024_09_basic_homeworks$ArrayOpetationsTest.ic" NAME="ArrayOpetationsTest Coverage Results" MODIFIED="1737913755774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.otus.java.basic.homeworks.hw32.*</FILTER>
+    </SUITE>
   </component>
 </project>
